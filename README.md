@@ -33,4 +33,15 @@
 
 - Este projeto foi desenvolvido exclusivamente para o processo seletivo da empresa **X** e não possui uma licença pública.
 
+---
+
+## 🖥️ UI Implementada - PC
+
+![UI implementada - PC](public/images/semaforo-pc.png)
+
+## 📱 UI Implementada - Mobile
+
+![UI Implementada - Mobile](public/images/semaforo-mobile.png)
+
+
 
