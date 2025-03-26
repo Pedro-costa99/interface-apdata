@@ -31,18 +31,6 @@
 - `npm run dev`
 - Acesse `http://localhost:3000` no navegador para ver o resultado.
 
-## 🚀 Rotas do Projeto
-
-O projeto possui as seguintes rotas configuradas:
-
-- **/interface-apdata/traffic-light**  
-  Rota responsável por exibir o componente **TrafficLightContainer**.
-  
-- **/interface-apdata/tabs**  
-  Rota responsável por exibir o componente **TabContainer**.
-
-Essas rotas são gerenciadas pelo React Router v6 e são acessíveis diretamente no navegador ao iniciar o servidor.
-
 ## Licença 📜
 
 - Este projeto foi desenvolvido exclusivamente para o processo seletivo da empresa **X** e não possui uma licença pública.

@@ -2,7 +2,6 @@ import React from "react";
 import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TrafficLightContainer from "./components/TrafficLightContainer";
-import TabContainer from "./components/TabContainer";
 
 const theme = createTheme({
   typography: {
@@ -15,16 +14,6 @@ const router = createBrowserRouter([
   {
     path: "/interface-apdata/",
     element: <TrafficLightContainer />,
-  },
-  {
-    // esta é a rota para a interface do semáforo
-    path: "/interface-apdata/traffic-light",
-    element: <TrafficLightContainer />,
-  },
-  {
-    // esta é a rota para a interface de abas 
-    path: "/interface-apdata/tabs",
-    element: <TabContainer />,
   },
 ]);
 
