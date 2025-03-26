@@ -1,6 +1,6 @@
 # 🚀 Empresa X test
 
-- Interface de usuário criada para processo seletivo da empresa X, feita com **React + Vite**, **MUI**, **Axios**, e outros.
+- Interface de usuário criada para processo seletivo da empresa X, feita com **React + Vite**, **MUI**, e outros.
 - Este é um projeto **ReactJS** criado com `npm create vite@latest`.
 - Para executá-lo, é necessário ter **Node.js 18+ ou 20+**. Consulte Doc Vite.dev.
 
@@ -10,8 +10,7 @@
 
 - **React + Vite**
 - **MUI (Material-UI)**
-- **Yup**
-- **Formik**
+- **TypeScript**
 
 ---
 
@@ -19,8 +18,8 @@
 
 ### 1️⃣ Clone o repositório
 
-- `git clone https://github.com/Pedro-costa99/redemption-app.git`
-- `cd redemption-app`
+- `git clone https://github.com/Pedro-costa99/interface-apdata.git`
+- `cd interface-apdata`
 - `code .`
 
 ### 2️⃣ Instale as dependências
@@ -32,33 +31,20 @@
 - `npm run dev`
 - Acesse `http://localhost:3000` no navegador para ver o resultado.
 
----
+## 🚀 Rotas do Projeto
 
-## ✅ Funcionalidades
+O projeto possui as seguintes rotas configuradas:
 
-- Interface dinâmica e responsiva para resgate de presentes (versão 01).
-- Design moderno com **Material-UI** para melhor experiência do usuário.
-- Atenção: as imagens anexas podem estar desatualizadas, consulte estado atual do app no link disponível.
+- **/interface-apdata/traffic-light**  
+  Rota responsável por exibir o componente **TrafficLightContainer**.
+  
+- **/interface-apdata/tabs**  
+  Rota responsável por exibir o componente **TabContainer**.
 
----
+Essas rotas são gerenciadas pelo React Router v6 e são acessíveis diretamente no navegador ao iniciar o servidor.
 
 ## Licença 📜
 
 - Este projeto foi desenvolvido exclusivamente para o processo seletivo da empresa **X** e não possui uma licença pública.
 
----
-
-## 🖥️ UI Implementada - PC
-
-![UI implementada - PC](public/images/pc_01.png)
-![UI implementada - PC](public/images/pc_02.png)
-![UI implementada - PC](public/images/pc_03.png)
-![UI implementada - PC](public/images/pc_04.png)
-
-## 📱 UI Implementada - Mobile
-
-![UI Implementada - Mobile](public/images/mobile_01.png)
-![UI Implementada - Mobile](public/images/mobile_02.png)
-![UI Implementada - Mobile](public/images/mobile_03.png)
-![UI Implementada - Mobile](public/images/mobile_04.png)
 
