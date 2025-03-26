@@ -10,8 +10,6 @@
 
 - **React + Vite**
 - **MUI (Material-UI)**
-- **TypeScript**
-
 ---
 
 ## 💻 Como executar o projeto
